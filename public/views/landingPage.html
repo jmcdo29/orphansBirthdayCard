@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+    body{
+      background-image: url("images/question-mark.png");
+      background-repeat: no-repeat;
+      background-color:lightgreen;
+    }
+    </style>
+  </head>
+<body>
+  <div>
+    <h1>Hello!</h1>
+    <h2>Is it your birthday today?</h2>
+  </div>
+  <div>
+    <form action = "/result" method = "post">
+      Enter your name:
+      <input type = "text" name = "name" placeholder = "Your Name Here"><br/>
+      <input type = "radio" name = "today" value = "yes">
+      <label>Yes</label><br/>
+      <input type = "radio" name = "today" value = "no">
+      <label>No</label><br/>
+      <input type = "submit" value="Show me the Money!">
+    </form>
+  </div>
+  
+</body>
+</html>
