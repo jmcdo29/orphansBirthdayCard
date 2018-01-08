@@ -27,8 +27,8 @@ app.get('/', (req,res,next)=>{
     htmlStr += '<h2 style = "text-align: center">That calls for celebration!</h2><br/>';
     htmlStr += '<img src = "images/Birthday.gif" alt="Celebration" style="width:100%;height:100%"><br/></div>';
   }else{
-    htmlStr += '<h3>Oh, I\'m sorry to hear that '+name+'</h3><br/>';
-    htmlStr += '<p>Maybe we can celebrate another day</p><br/>';
+    htmlStr += '<h3 style = "text-align: center">Oh, I\'m sorry to hear that '+name+'</h3><br/>';
+    htmlStr += '<p style = "text-align: center">Maybe we can celebrate another day</p><br/>';
   }
   htmlStr += '</body></html>';
   res.send(htmlStr);
