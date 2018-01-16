@@ -1,0 +1,22 @@
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    link(rel="stylesheet", href="/css/style.css")
+    link(rel="shortcut icon", href="/images/favicon.ico", type="image/x-icon")
+    if boolToday
+      title Celebrate!
+    else
+      title I'm Sorry
+  if boolToday
+    body.celebration
+      h1.celebrate Hey #{name}!!!
+      h2.celebrate That calls for celebration
+      img.gif(src="images/Birthday.gif", alt="Celebration")
+      div.center
+        a(href="/") Let's go back.
+  else 
+    body.sorry
+      h3 Oh, I'm Sorry to hear that, #{name}.
+      p Maybe we can celebrate another day.
+      div.center
+        a(href="/") Let's go back.

@@ -1,0 +1,19 @@
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    title Is it your birthday?
+    link(rel="shortcut icon", href="/images/favicon.ico", type="image/x-icon")
+    link(rel="stylesheet", href="/css/style.css")
+  body.question
+    h1 Hello!
+    h2 Is it your birthday today?
+    form(action="/result", method="post")
+      input#userIn(type="text", name="name" placeholder="Your Name Here" required)
+      br
+      label(for="radYes") Yes:
+      input#radYes(type="radio", name="today" value="yes")
+      br
+      label(for="radNo") No:
+      input#radio(type="radio", name="today" value="no")
+      br
+      input#submit(type="submit", value="Show me the Money!")

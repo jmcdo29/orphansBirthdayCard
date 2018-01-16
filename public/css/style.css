@@ -1,0 +1,112 @@
+body.question{
+  background-image: url("../images/question-mark.png");
+  background-repeat: no-repeat;
+  background-color: lightgreen;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body.celebration{
+  background-image: url("../images/cake.jpg"),url("../images/cake.jpg");
+  background-repeat: no-repeat,no-repeat;
+  background-position: right top, left top;
+  background-size: 200px, 200px;
+  background-color: #0066cc;
+}
+body.sorry{
+  background-image: url("../images/frown.png"),url("../images/frown.png");
+  background-repeat: no-repeat, no-repeat;
+  background-position: right top, left top;
+  background-size: 200px, 200px;
+  background-color: lightslategray;
+}
+div.center{
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
+input#userIn:focus{
+  background-color: aqua;
+}
+input#submit{
+  background-color: whitesmoke;
+  color: blueviolet;
+  border-radius: 6px;
+}
+h1,h2{
+  -webkit-animation:colorchange 10s infinite alternate;
+}
+h1.celebrate, h2.celebrate, h3, p{
+  text-align: center;
+}
+img.gif{
+ width: 100%;
+ height: 100%;
+}
+a:link, a:visited{
+  background-color: #34495e;
+  color: white;
+  padding: 14px 25px;
+  text-align: center; 
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 6px;
+}
+a:hover{
+  background-color: #f44336;
+  color: lightgrey;
+  text-decoration: underline;
+}
+@-webkit-keyframes colorchange {
+  0% {
+    
+    color: blue;
+  }
+  
+  10% {
+    
+    color: #8e44ad;
+  }
+  
+  20% {
+    
+    color: #1abc9c;
+  }
+  
+  30% {
+    
+    color: #d35400;
+  }
+  
+  40% {
+    
+    color: blue;
+  }
+  
+  50% {
+    
+    color: #34495e;
+  }
+  
+  60% {
+    
+    color: blue;
+  }
+  
+  70% {
+    
+    color: #2980b9;
+  }
+  80% {
+ 
+    color: #f1c40f;
+  }
+  
+  90% {
+ 
+    color: #2980b9;
+  }
+  
+  100% {
+    
+    color: pink;
+  }
+  
